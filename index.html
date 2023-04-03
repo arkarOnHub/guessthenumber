@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number !</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="icon" href="./Images/metafinal.png" type="image" sizes="32x32">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html"><img class="logo" src="./Images/header.png" alt=""></a>
+    </div>
+    <div class="container container-no" id="container-no" >
+        <div class="ani animate__animated animate__zoomInUp">
+            <div class="content">
+                <h2 class="number0">First, pick a number <u>Between</u> </h2>
+                <h1 class="number1">1 and 30</h1>
+                <p>(I'ma guess your number in only 5 Steps)</p>
+            </div>
+        </div>
+        <button class="btn btn-no" id="btn-no" >Done</button>
+    </div>
+
+    <div class="container container-red" id="container-red" >
+        <div class="content">
+            <h2 class="guild">Does this table have the number you picked?</h2>
+            <div class="ani-right ani-red">
+                <table>
+                    <tr>
+                        <td class="key">01</td>
+                        <td class="key">03</td>
+                        <td class="key">05</td>
+                        <td class="key">07</td>
+                    </tr>
+                    <tr>
+                        <td class="key">09</td>
+                        <td class="key">11</td>
+                        <td class="key">13</td>
+                        <td class="key">15</td>
+                    </tr>
+                    <tr>
+                        <td class="key">17</td>
+                        <td class="key">19</td>
+                        <td class="key">21</td>
+                        <td class="key">23</td>
+                    </tr>
+                    <tr>
+                        <td class="key">25</td>
+                        <td class="key">27</td>
+                        <td class="key">29</td>
+                        <td class="key">31</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <button class="btn btn-color btn-0" id="btn-red0" >Yes, it's in.</button>
+        <button class="btn btn-color btn-1" id="btn-red1" >No, it's not.</button>
+    </div>
+
+    <div class="container container-yellow" id="container-yellow">
+        <div class="content">
+            <h2 class="guild">Does this table have the number you picked?</h2>
+            <div class="ani-left ani-yellow">
+                <table>
+                    <tr>
+                        <td class="key">02</td>
+                        <td class="key">03</td>
+                        <td class="key">06</td>
+                        <td class="key">07</td>
+                    </tr>
+                    <tr>
+                        <td class="key">10</td>
+                        <td class="key">11</td>
+                        <td class="key">14</td>
+                        <td class="key">15</td>
+                    </tr>
+                    <tr>
+                        <td class="key">18</td>
+                        <td class="key">19</td>
+                        <td class="key">22</td>
+                        <td class="key">23</td>
+                    </tr>
+                    <tr>
+                        <td class="key">26</td>
+                        <td class="key">27</td>
+                        <td class="key">30</td>
+                        <td class="key">31</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <button class="btn btn-color btn-0" id="btn-yellow0" >Yes, it's in.</button>
+        <button class="btn btn-color btn-1" id="btn-yellow1" >No, it's not.</button>
+    </div>
+
+    <div class="container container-green" id="container-green">
+        <div class="content">
+            <h2 class="guild">Does this table have the number you picked?</h2>
+            <div class="ani-right ani-green">
+                <table>
+                    <tr>
+                        <td class="key">04</td>
+                        <td class="key">05</td>
+                        <td class="key">06</td>
+                        <td class="key">07</td>
+                    </tr>
+                    <tr>
+                        <td class="key">12</td>
+                        <td class="key">13</td>
+                        <td class="key">14</td>
+                        <td class="key">15</td>
+                    </tr>
+                    <tr>
+                        <td class="key">20</td>
+                        <td class="key">21</td>
+                        <td class="key">22</td>
+                        <td class="key">23</td>
+                    </tr>
+                    <tr>
+                        <td class="key">28</td>
+                        <td class="key">29</td>
+                        <td class="key">30</td>
+                        <td class="key">31</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <button class="btn btn-color btn-0" id="btn-green0" >Yes, it's in.</button>
+        <button class="btn btn-color btn-1" id="btn-green1" >No, it's not.</button>
+    </div>
+
+    <div class="container container-blue" id="container-blue">
+        <div class="content">
+            <h2 class="guild">Does this table have the number you picked?</h2>
+            <div class="ani-left ani-blue">
+                <table>
+                    <tr>
+                        <td class="key">08</td>
+                        <td class="key">09</td>
+                        <td class="key">10</td>
+                        <td class="key">11</td>
+                    </tr>
+                    <tr>
+                        <td class="key">12</td>
+                        <td class="key">13</td>
+                        <td class="key">14</td>
+                        <td class="key">15</td>
+                    </tr>
+                    <tr>
+                        <td class="key">24</td>
+                        <td class="key">25</td>
+                        <td class="key">26</td>
+                        <td class="key">27</td>
+                    </tr>
+                    <tr>
+                        <td class="key">28</td>
+                        <td class="key">29</td>
+                        <td class="key">30</td>
+                        <td class="key">31</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <button class="btn btn-color btn-0" id="btn-blue0" >Yes, it's in.</button>
+        <button class="btn btn-color btn-1" id="btn-blue1" >No, it's not.</button>
+    </div>
+
+    <div class="container container-violet" id="container-violet">
+        <div class="content">
+            <h2 class="guild">Does this table have the number you picked?</h2>
+            <div class="ani-right ani-violet">
+                <table>
+                    <tr>
+                        <td class="key">16</td>
+                        <td class="key">17</td>
+                        <td class="key">18</td>
+                        <td class="key">19</td>
+                    </tr>
+                    <tr>
+                        <td class="key">20</td>
+                        <td class="key">21</td>
+                        <td class="key">22</td>
+                        <td class="key">23</td>
+                    </tr>
+                    <tr>
+                        <td class="key">24</td>
+                        <td class="key">25</td>
+                        <td class="key">26</td>
+                        <td class="key">27</td>
+                    </tr>
+                    <tr>
+                        <td class="key">28</td>
+                        <td class="key">29</td>
+                        <td class="key">30</td>
+                        <td class="key">31</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <button class="btn btn-color btn-0" id="btn-violet0" >Yes, it's in.</button>
+        <button class="btn btn-color btn-1" id="btn-violet1" >No, it's not.</button>
+    </div>
+
+    <div class="container container-load" id="container-load">
+        <div class="content">
+            <h2 class="ready"> The Result is Ready ! </h2>
+        </div>
+        <button class="btn btn-load" id="container-load" >Click Here</button>
+    </div>
+    
+    <div class="container container-result" id="container-result">
+        <div class="ani1">
+            <div class="content" id="cheat">
+                <h2 class="ans0">Your number is</h2>
+                <h1 class="ans1" id="result">12</h1>
+            </div>
+        </div>
+        <button class="btn btn-remake" id="btn-remake"><i class="fas fa-redo-alt"></i></button>
+    </div>
+
+    <div class="credit">
+        <h5>Created by Htet Arkar</h5>
+        <div class="social">
+            <a href="https://www.facebook.com/htetarkar.1082003" target="_blink"><i class="fab fa-facebook"></i></a> 
+            <a href="https://www.instagram.com/it_is_me_arkar/" target="_blink"><i class="fab fa-instagram-square"></i></a>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
